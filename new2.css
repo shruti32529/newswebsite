@@ -1,0 +1,141 @@
+ body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #0f0e0e;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main .banner{
+    color:lightslategrey;
+    text-align:center ;
+    padding: 100px 20px;
+}
+
+main .banner h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+main .banner p {
+    font-size: 24px;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.news-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+.news-item h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+body {
+    background-image: url("https://thumbs.dreamstime.com/z/breaking-news-vector-background-world-tv-internet-channel-translation-illustration-map-typing-website-blog-live-video-146238956.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.news-item p {
+    padding: 0 10px 10px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .row {
+    margin-top: 10px;
+}
+
+footer .col {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer .col a {
+    margin: 5px 10px;
+}
